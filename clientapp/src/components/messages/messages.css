@@ -1,0 +1,94 @@
+.content-message {
+    background-color: rgb(245, 245, 245);
+}
+.chat-online {
+    color: #34ce57
+}
+
+.chat-offline {
+    color: #e4606d
+}
+
+.chat-messages {
+    display: flex;
+    flex-direction: column;
+    max-height: 800px;
+    overflow-y: scroll
+}
+
+.chat-message-left,
+.chat-message-right {
+    display: flex;
+    flex-shrink: 0
+}
+
+.chat-message-left {
+    margin-right: auto
+}
+
+.chat-message-right {
+    flex-direction: row-reverse;
+    margin-left: auto
+}
+.py-3 {
+    padding-top: 1rem!important;
+    padding-bottom: 1rem!important;
+}
+.px-4 {
+    padding-right: 1.5rem!important;
+    padding-left: 1.5rem!important;
+}
+.flex-grow-0 {
+    flex-grow: 0!important;
+}
+.border-top {
+    border-top: 1px solid #dee2e6!important;
+}
+.border-right {
+    border-right: 1px solid #dee2e6!important;
+}
+.chat-list {
+    cursor: pointer;
+}
+.search-result-chat {
+    z-index: 9;
+}
+.message-container {
+    max-height: 75vh;
+    min-height: 75vh;
+    height: 75vh;
+    overflow-y: hidden;
+}
+.chat-list:hover {
+    background-color: #dedede !important;
+}
+.chat-holder {
+    max-height: 75vh;
+    min-height: 75vh;
+    height: 75vh;
+    overflow-y: scroll;
+}
+.search-btn {
+    height: 40px;
+}
+.btn-back {
+    display: none;
+}
+
+@media screen and (max-width: 480px) {
+    .display-off {
+        display: none;
+    }
+    .btn-back {
+        display: inline;
+    }
+}
+
+@media (min-width: 768px) and (max-width: 820px) {
+    .display-off {
+        display: none;
+    }
+    .btn-back {
+        display: inline;
+    }
+}

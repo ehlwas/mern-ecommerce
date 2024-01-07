@@ -1,0 +1,7 @@
+.overlayView .brandingLogoView {
+    display: none !important;
+}
+
+.payment-span {
+    margin-left: 50px;
+}

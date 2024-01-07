@@ -1,0 +1,15 @@
+.login-form {
+    width: 50vw;
+}
+.login-form .input-gold {
+    border-bottom: 2px solid #DDA46F !important;
+    color: #DDA46F !important;
+    font-weight: bold;
+}
+
+
+@media screen and (max-width: 480px) {
+    .login-form {
+        width: 100vw;
+    }
+}

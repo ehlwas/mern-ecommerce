@@ -1,0 +1,84 @@
+.profile-container {
+    /* height: 100vh; */
+    /* width: 70vw; */
+    min-height: 100vh;
+}
+.navigation-col {
+    padding-top: 1rem;
+}
+.sm-line {
+    border: 1px solid #FFF;
+    height: 20px;
+    width: 1px;
+}
+.navigation a.text-white, .navigation div.text-white {
+    border-radius: 50px !important;
+    cursor: pointer;
+}
+.navigation a:hover, .navigation div:hover {
+    border-radius: 50px !important;
+    cursor: pointer;
+}
+
+.navigation a:hover, .navigation div:hover {
+    background-color: #DDA46F !important;
+    color: #fff !important;
+}
+.form-profile input, .form-profile select {
+    border-bottom: 2px solid #DDA46F !important;
+    font-weight: bold;
+}
+.form-address input {
+    border-bottom: 2px solid #fff !important;
+    color: #fff !important;
+    font-weight: bold;
+}
+
+
+.loyalty-points {
+    cursor: pointer;
+}
+.loyalty-points:hover {
+    text-decoration: underline;
+}
+.points-filter .col {
+    cursor: pointer;
+    /* height: 50px; */
+}
+.points-filter .icon-text {
+}
+/* .back-button:hover {
+    background-color: #DDA46F;
+    color: #fff;
+} */
+
+@media screen and (max-width: 480px) {
+    .navigation-col {
+        border-bottom: 2px solid #dedede;
+        padding: 0 !important;
+    }
+    .firstname {
+        margin-bottom: 1rem;
+    }
+    .address-actions {
+        margin: 10px 0;
+    }
+    .wallet-col {
+        width: 150px !important;
+    }
+    .points-header h5 {
+        margin-left: 30px;
+    }
+}
+
+@media (min-width: 768px) and (max-width: 820px) {
+    .profile-container {
+        width: auto;
+    }
+    .points-header h5 {
+        margin-left: 40px;
+    }
+    .navigation-col {
+        width: 150px;
+    }
+}

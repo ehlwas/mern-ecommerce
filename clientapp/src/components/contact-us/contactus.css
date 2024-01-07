@@ -1,0 +1,23 @@
+.form-contact-section div {
+    width: 50vw;
+}
+.form-contact .form-outline, .form-contact .form-check {
+    width: 25vw;
+}
+.form-contact-section .form-check-input {
+    background-color: transparent !important;
+    border-color: #fff !important;
+    border: 1px solid #fff;
+}
+.form-contact input, .form-contact textarea {
+    border-bottom: 2px solid #fff !important;
+}
+.form-contact textarea::-webkit-resizer {
+    color: #fff !important;    
+}
+.info-box {
+    width: 400px;
+}
+.info-box img {
+    max-width: 100% 
+}

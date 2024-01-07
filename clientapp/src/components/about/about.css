@@ -1,0 +1,82 @@
+.aboutpage-header {
+  background-size: cover;
+  height: 45vh;
+}
+
+.mission-text img,
+.vision-text img {
+  display: block;
+  max-width: 600px;
+  max-height: 350px;
+  width: auto;
+  height: auto;
+}
+
+.mission-text div,
+.vision-text div {
+    /* padding: 20px; */
+    width: 40vw;
+}
+
+.mission-vision-container {
+    /* gap: 5vw; */
+}
+
+.mission-text {
+}
+
+.vision-text {
+}
+
+.mission-text:hover {
+    background-color: #ebebeb;
+    transition: .4s;
+}
+.vision-text:hover {
+    background-color: #ebebeb;
+    transition: .4s;
+}
+
+.about-brand-vocal {
+    height: 90vh;
+}
+.aboutpage-wordsinspire-box {
+    background-size: cover;
+    background-position: center;
+    height: 400px;
+    width: 480px;
+}
+
+.abouteducation-header {
+    background-size: cover;
+    background-position: 0 60%;
+    height: 40vh;
+}
+.abouteducation-header-text {
+    width: 40vw;
+}
+
+.aboutpage-blogs-box {
+    height: 500px;
+    width: 400px;
+}
+.aboutpage-blogs-box:hover {
+    background-color: #ebebeb;
+}
+.aboutpage-blogs-box img {
+    max-width: 100%;
+}
+
+
+@media screen and (max-width: 480px) {
+    .mission-text div, .vision-text div {
+        width: 80vw;
+    }
+    .abouteducation-header {
+        height: auto;
+        padding: 30px 0;
+    }
+    .abouteducation-header-text {
+        width: 70vw;
+    }
+}

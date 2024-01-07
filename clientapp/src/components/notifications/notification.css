@@ -1,0 +1,35 @@
+.notification-container {
+    min-height: 50vh;
+}
+
+.notification-head-row {
+    border-bottom: 2px solid #b5b3b3;
+}
+
+.notification-box {
+    height: auto;
+    transition: .2s;
+}
+.notification-box:hover {
+    background-color: #f5f5f5 !important;
+}
+
+.notification-action {
+    cursor: pointer;
+    transition: .2s;
+}
+.notification-action:hover {
+    filter: brightness(40%);
+}
+
+.dot {
+    height: 10px;
+    width: 10px;
+    background-color: #8DB0C9;
+    border-radius: 50%;
+    display: inline-block;
+}
+
+
+@media (min-width: 768px) and (max-width: 820px) {
+}

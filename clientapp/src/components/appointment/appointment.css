@@ -1,0 +1,41 @@
+.appointment-header-container {
+    background-size: cover;
+    height: 40vh;
+}
+
+.not-available {
+    background-color: #E6D9C5;
+}
+.available-date {
+    background-color: #DDA46F;
+}
+.react-calendar__tile {
+    border: 1px solid #fff !important;
+    /* margin: 1px !important; */
+}
+.react-calendar__tile--now {
+    background-color: #8DB0C9;
+    color: #fff;
+}
+.react-calendar__tile--active, .react-calendar__tile--active:hover, .react-calendar__tile--active:focus {
+    background-color: #DDA46F !important;
+    background: #DDA46F !important;
+}
+.react-calendar__navigation__label__labelText {
+    color: #DDA46F !important;
+}
+
+.time-slots {
+    display: flex;
+    flex-direction: column;
+}
+.react-calendar__tile {
+    margin: 2px;
+}
+
+
+@media screen and (max-width: 480px) {
+    .appointment-container .row .col {
+        margin-bottom: 25px;
+    }
+}

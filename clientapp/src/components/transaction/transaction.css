@@ -1,0 +1,11 @@
+.status-filter {
+    top: 61px;
+    overflow-y: scroll;
+    z-index: 1;
+}
+.transaction-filter .active {
+    background-color: #D39E6C;
+    transition: .2s;
+    border: 1px solid #fff;
+    color: #fff;
+}
